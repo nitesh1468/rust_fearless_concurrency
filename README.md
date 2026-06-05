@@ -78,6 +78,14 @@ in production — hence "fearless."
 > independently; *parallel* means they execute at the same time. The book often
 > says "concurrent" to mean "concurrent and/or parallel."
 
+### Contents
+
+1. [Using threads to run code simultaneously](#1-using-threads-to-run-code-simultaneously)
+2. [Message passing to transfer data between threads](#2-message-passing-to-transfer-data-between-threads)
+3. [Shared-state concurrency](#3-shared-state-concurrency)
+4. [`Send` and `Sync`: extensible concurrency](#4-send-and-sync-extensible-concurrency)
+5. [Key takeaways](#key-takeaways)
+
 ### 1. Using threads to run code simultaneously
 
 - An executing program's code runs in a **process**, and within it you can have
